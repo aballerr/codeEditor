@@ -1,0 +1,28 @@
+.fa-copy {
+  display: inline-block;
+  font-size: 22px;
+  color: gray;
+  background-color: 'pink';
+  margin-left:15px;
+}
+
+.fa-copy:hover {
+  cursor: pointer;
+  color: lightgray;
+  transition: color 0.25s ease;
+}
+
+@keyframes click {
+  0%,50%, 100% {
+    font-size:  17px;
+  }
+
+  25%, 75% {
+    font-size: 30px;
+  }
+}
+
+.fa-copy:active {
+  animation: click 0.25s ease-in;
+  animation-iteration-count: 1;
+}
